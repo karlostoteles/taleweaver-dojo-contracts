@@ -1,0 +1,31 @@
+[package]
+cairo-version = "2.6.3"
+name = "taleweaver"
+version = "0.7.0"
+
+[cairo]
+sierra-replace-ids = true
+
+[scripts]
+migrate = "sozo build && sozo migrate apply"
+spawn = "./scripts/spawn.sh"
+
+[dependencies]
+dojo = { git = "https://github.com/dojoengine/dojo", tag = "v0.7.1" }
+
+[[target.dojo]]
+
+[tool.dojo]
+initializer_class_hash = "0xbeef"
+
+[tool.dojo.env]
+rpc_url = "https://api.cartridge.gg/x/taleweaver/katana"
+# Default account for katana with seed = 0
+account_address = "0x4a9712d30e5eb966bd8fdfb6689bec73bf96361754b70a382bf93d2474a003b"
+private_key = "0x3ae2563a3f5947dff7e09f59bad678c5963eb4fc43f0e99f5c2d16a8ee13358"
+world_address = "0x66c085f290850926bd20723d2e36b42e770534ceeda007b843a65c880c145ef"
+
+[profile.taleweaver.tool.dojo.env]
+rpc_url = "https://api.cartridge.gg/x/ttweaver/katana"
+account_address = "0x4115653830f4ffcd22c169a1b59153bce3c05b88aa0769a9f338d44048ad51b"
+private_key = "0x11de8cae27f3e1ddf62a453f0ad2e8963d2981df56eff00a4c522120d27de47"

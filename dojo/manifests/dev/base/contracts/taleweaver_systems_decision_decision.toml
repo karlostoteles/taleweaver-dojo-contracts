@@ -1,0 +1,10 @@
+kind = "DojoContract"
+class_hash = "0x468c374475816853142224935ce0e76f812ea8164010b3a2c0187a68b20015e"
+original_class_hash = "0x468c374475816853142224935ce0e76f812ea8164010b3a2c0187a68b20015e"
+base_class_hash = "0x0"
+abi = "manifests/dev/abis/base/contracts/taleweaver_systems_decision_decision.json"
+reads = []
+writes = []
+computed = []
+init_calldata = []
+name = "taleweaver::systems::decision::decision"

@@ -1,0 +1,10 @@
+kind = "DojoContract"
+class_hash = "0x1e5c84cd08a31992b4320c3b39684df42d4fa292a09f382f89fd5f639b2c03e"
+original_class_hash = "0x1e5c84cd08a31992b4320c3b39684df42d4fa292a09f382f89fd5f639b2c03e"
+base_class_hash = "0x0"
+abi = "manifests/dev/abis/base/contracts/taleweaver_systems_construct_construct.json"
+reads = []
+writes = []
+computed = []
+init_calldata = []
+name = "taleweaver::systems::construct::construct"

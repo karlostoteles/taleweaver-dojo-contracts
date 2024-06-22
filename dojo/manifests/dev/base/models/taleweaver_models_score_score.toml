@@ -1,0 +1,20 @@
+kind = "DojoModel"
+class_hash = "0x6c3b23fc0e59543a78753f4faa5b6d91f80a5052c47664f869ab8b82e45bdcf"
+original_class_hash = "0x6c3b23fc0e59543a78753f4faa5b6d91f80a5052c47664f869ab8b82e45bdcf"
+abi = "manifests/dev/abis/base/models/taleweaver_models_score_score.json"
+name = "taleweaver::models::score::score"
+
+[[members]]
+name = "assistantId"
+type = "felt252"
+key = true
+
+[[members]]
+name = "player"
+type = "ContractAddress"
+key = true
+
+[[members]]
+name = "points"
+type = "u32"
+key = false

@@ -1,0 +1,9 @@
+kind = "DojoContract"
+class_hash = "0x2757c99f657e3cc1a44e97c258c9e470bb2adf88e859d74ab79a78820bb3e06"
+original_class_hash = "0x2757c99f657e3cc1a44e97c258c9e470bb2adf88e859d74ab79a78820bb3e06"
+base_class_hash = "0x0"
+abi = "manifests/taleweaver/abis/base/contracts/taleweaver_systems_play_play.json"
+reads = []
+writes = []
+computed = []
+name = "taleweaver::systems::play::play"
